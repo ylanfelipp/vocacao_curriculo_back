@@ -17,7 +17,7 @@ Este é o servidor (back-end) do projeto Smart Tutor. Ele funciona como uma API 
 
 1.  **Navegue até a pasta**
     ```bash
-    cd backend
+    cd vocacao_curriculo_back
     ```
 
 2.  **Instale as dependências**
@@ -29,7 +29,7 @@ Este é o servidor (back-end) do projeto Smart Tutor. Ele funciona como uma API 
 
     Você **precisa** de uma chave de API do Google Gemini.
 
-    * Crie um arquivo chamado `.env` na raiz desta pasta (`backend/.env`).
+    * Crie um arquivo chamado `.env` na raiz desta pasta (`vocacao_curriculo_back/.env`).
     * Adicione sua chave de API ao arquivo:
 
     ```
