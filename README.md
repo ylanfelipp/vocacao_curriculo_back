@@ -66,7 +66,7 @@ Este é o único endpoint da aplicação. Ele é responsável por todo o fluxo d
 2.  O `multer` salva o PDF temporariamente na pasta `/uploads`.
 3.  O `pdf-parse` lê o PDF salvo e extrai todo o seu conteúdo de texto.
 4.  O servidor constrói um *prompt* detalhado contendo os dados do formulário (objetivos, gostos, etc.) e o texto extraído do currículo.
-5.  Este *prompt* é enviado para a API do Google Gemini (usando o modelo `gemini-1.5-flash`).
+5.  Este *prompt* é enviado para a API do Google Gemini (usando o modelo `gemini-2.5-flash`).
 6.  A IA retorna uma análise em texto.
 7.  O `pdfkit` cria um novo documento PDF em memória.
 8.  O texto da análise do Gemini é formatado e inserido no novo PDF, junto com os dados do aluno.
